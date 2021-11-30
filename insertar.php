@@ -16,7 +16,7 @@ $sql="INSERT INTO productos VALUES('$id','$nombre','$descripcion','$categoria','
 $query= mysqli_query($con,$sql);
 
 if($query){
-    Header("Location: producto.php");
+    Header("Location: index.php")
     
 }else {
 }
