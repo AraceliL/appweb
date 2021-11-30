@@ -9,6 +9,6 @@ $sql="DELETE  FROM productos  WHERE id='$id'";
 $query=mysqli_query($con,$sql);
 
     if($query){
-        Header("Location: producto.php");
+        Header("Location: index.php")
     }
 ?>
